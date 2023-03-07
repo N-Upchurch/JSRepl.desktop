@@ -26,9 +26,9 @@ npm i -g nodemon
 cd /my/applications/dir && wget https://raw.githubusercontent.com/N-Upchurch/JSRepl.desktop/main/JSRepl.desktop
 ```
 ## Use:
-* Open your application launcher and click on JSRepl to launch
-* Write code
-* Save to run your code (or if you're really fancy, and brave, turn on autosave in KWrite)
+1. Open your application launcher and click on JSRepl to launch
+2. Write some JavaScript
+3. Save to run your code (or if you're really fancy, and brave, turn on autosave in KWrite)
 
 ## FAQs:
 * Does it work with TypeScript? 
