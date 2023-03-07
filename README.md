@@ -37,3 +37,8 @@ cd /my/applications/dir && wget https://raw.githubusercontent.com/N-Upchurch/JSR
     * Probably not; it's just a .desktop file. Feel free to submit a PR if you have ideas.
 * Do I have to use KWrite and Konsole?
     * Not if you change the program names in JSRepl.desktop, but you're on your own.
+* What happens to repls.js when I'm done with it?
+    * It's deleted the next time you restart your machine.
+* What if I want to keep repl.js or save it somewhere else? 
+    * Either save a copy somewhere else using KWrite, or copy it from `/tmp/`:
+    `sudo cp /tmp/repl.js /my/new/dir/`
