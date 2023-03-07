@@ -36,4 +36,4 @@ cd /my/applications/dir && wget https://raw.githubusercontent.com/N-Upchurch/JSR
 * Does it have X feature?
     * Probably not; it's just a .desktop file. Feel free to submit a PR if you have ideas.
 * Do I have to use KWrite and Konsole?
-    * Not if you change the program names in JSRepl.desktop, but you're on your own from there.
+    * Not if you change the program names in JSRepl.desktop, but you're on your own.
