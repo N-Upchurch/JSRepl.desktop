@@ -13,17 +13,16 @@ Well, here you go, friend. This quick and dirty .desktop file creates `repl.js` 
 ## Screenshot:
 ![image](https://user-images.githubusercontent.com/8893713/223494042-20b4915b-382e-43b2-8d4b-16dbc265be56.png)
 
-## Requirements:
-* A GNU/Linux distro with KWrite, Konsole, and Node installed
+## Dependencies:
+* KWrite
+* Konsole
+* Node
+* Nodemon
 
-## Setup:
-1. Install nodemon
+## Installation:
+Drop JSRepl.desktop wherever it needs to live on your system:
 ```bash
-npm i -g nodemon
-```
-2. Drop JSRepl.desktop wherever it needs to live on your system
-```bash
-cd ~/.local/share/applications && wget https://raw.githubusercontent.com/N-Upchurch/JSRepl.desktop/main/JSRepl.desktop
+wget https://raw.githubusercontent.com/N-Upchurch/JSRepl.desktop/main/JSRepl.desktop -P ~/.local/share/applications/
 ```
 ## Use:
 1. Open your application launcher and click on JSRepl to launch
@@ -36,7 +35,7 @@ cd ~/.local/share/applications && wget https://raw.githubusercontent.com/N-Upchu
 * Does it have X feature?
     * Probably not; it's just a .desktop file. Feel free to submit a PR if you have ideas.
 * Do I have to use KWrite and Konsole?
-    * Not if you change the program names in JSRepl.desktop, but you're on your own.
+    * Not if you change the program names in JSRepl.desktop, but you're on your own there.
 * What happens to repl.js when I'm done with it?
     * It's deleted the next time you restart your machine.
 * What if I want to keep repl.js or save it somewhere else? 
