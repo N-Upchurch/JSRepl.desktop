@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=echo '>>' /tmp/repl.js '&' kwrite /tmp/repl.js '&' konsole -e nodemon -w /tmp/repl.js -q --exec 'clear && node /tmp/repl.js'
+Exec=echo 'touch' /tmp/repl.js '&' kwrite /tmp/repl.js '&' konsole -e nodemon -w /tmp/repl.js -q --exec 'clear && node /tmp/repl.js'
 GenericName[en_US]=Run an interactive JS REPL
 GenericName=Run an interactive JS REPL
 Icon=
