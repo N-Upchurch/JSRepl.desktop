@@ -1,20 +1,11 @@
-[Desktop Entry]
-Comment[en_US]=
-Comment=
-Exec=echo 'touch' /tmp/repl.js '&' kwrite /tmp/repl.js '&' konsole -e nodemon -w /tmp/repl.js -q --exec 'clear && node /tmp/repl.js'
-GenericName[en_US]=Run an interactive JS REPL
-GenericName=Run an interactive JS REPL
-Icon=
-MimeType=
+[Desktop Entry]js
+Exec=sh -c "touch /tmp/repl.js & kwrite /tmp/repl.js & konsole -e nodemon -w /tmp/repl.js -q --exec 'clear && node /tmp/repl.js'"
+GenericName[en_US]=Run an interactive JS REPL with KWrite and Konsole
+GenericName=Run an interactive JS REPL with KWrite and Konsole
+Icon=code-context-symbolic
 Name[en_US]=JSRepl
 Name=JSRepl
 NoDisplay=false
-Path=
 StartupNotify=true
 Terminal=false
-TerminalOptions=
 Type=Application
-X-DBUS-ServiceName=
-X-DBUS-StartupType=
-X-KDE-SubstituteUID=false
-X-KDE-Username=
