@@ -23,7 +23,7 @@ npm i -g nodemon
 ```
 2. Drop JSRepl.desktop wherever it needs to live on your system
 ```bash
-cd /my/applications/dir && wget https://raw.githubusercontent.com/N-Upchurch/JSRepl.desktop/main/JSRepl.desktop
+cd ~/.local/share/applications && wget https://raw.githubusercontent.com/N-Upchurch/JSRepl.desktop/main/JSRepl.desktop
 ```
 ## Use:
 1. Open your application launcher and click on JSRepl to launch
