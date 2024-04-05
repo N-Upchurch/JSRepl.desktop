@@ -21,7 +21,7 @@ Well, here you go, friend. This quick and dirty .desktop file creates `repl.js` 
 ```bash
 npm i -g nodemon
 ```
-2. Drop JSRepl.js wherever it needs to live on your system
+2. Drop JSRepl.desktop wherever it needs to live on your system
 ```bash
 cd /my/applications/dir && wget https://raw.githubusercontent.com/N-Upchurch/JSRepl.desktop/main/JSRepl.desktop
 ```
